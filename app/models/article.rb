@@ -1,6 +1,6 @@
 class Article < ApplicationRecord
   validates :title, presence: true
-  validates :body, presence: true, lenght: { minimum: 10 }
+  validates :body, presence: true, length: { minimum: 10 }
 end
 
 # из-за того, что Article наследуется от ApplicationRecord
